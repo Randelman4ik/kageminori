@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Musician Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    header {
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #fff;
+      width: 100%;
+      max-width: 800px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      flex: 1;
+      max-width: 800px;
+      padding: 20px;
+      width: 100%;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h1, h2 {
+      font-weight: normal;
+    }
+    a.audio-link {
+      color: #fff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Musician Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#music">Music</a>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>Hello! I am a musician passionate about creating unique sounds and sharing my music with the world. Welcome to my portfolio.</p>
+    </section>
+    <section id="music">
+      <h2>Music</h2>
+      <p>Here are some of my tracks:</p>
+      <ul>
+        <li><a class="audio-link" href="#" onclick="alert('Audio playback not implemented. Replace # with your audio file URL.')">Track 1</a></li>
+        <li><a class="audio-link" href="#" onclick="alert('Audio playback not implemented. Replace # with your audio file URL.')">Track 2</a></li>
+        <li><a class="audio-link" href="#" onclick="alert('Audio playback not implemented. Replace # with your audio file URL.')">Track 3</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
